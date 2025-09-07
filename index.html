@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Humane Care for Street Dogs</title>
+  <meta name="description" content="Raising awareness for humane, effective care of community dogs—vaccination, spay/neuter, adoption, and shelter support." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Bar / Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">🐾 Street Dogs Care</a>
+      <nav>
+        <a href="#issue">The Issue</a>
+        <a href="#global">Global Practices</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#involved" class="cta">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <h1>Toward Humane, Smart Care for Street Dogs</h1>
+      <p>
+        Street dogs deserve compassion and effective public health solutions. Learn what
+        works worldwide—vaccination, spay/neuter, adoption—and how we can bring it to every community.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#solutions">See What Works</a>
+        <a class="btn" href="#issue">Why This Matters</a>
+      </div>
+      <p class="mini">Share this site: <button id="copyLink" class="link-btn">Copy Link</button></p>
+      <p class="mini">
+        <a target="_blank" rel="noopener" id="shareTwitter">Share on X/Twitter</a> ·
+        <a target="_blank" rel="noopener" id="shareWhatsApp">WhatsApp</a>
+      </p>
+    </div>
+    <figure class="hero-image">
+      <img src="images/dog.jpg" alt="Friendly community dog" />
+      <figcaption class="img-cap">Community dogs are part of our neighborhoods—and our responsibility.</figcaption>
+    </figure>
+  </section>
+
+  <!-- The Issue -->
+  <section id="issue" class="section container">
+    <h2>The Issue in India</h2>
+    <p>
+      Many dogs live on the streets with limited access to food, vaccination, and sterilization.
+      Public debates can become polarized: remove dogs vs. leave them on the streets. Both miss the point:
+      the <strong>humane, proven path</strong> is to reduce suffering <em>and</em> improve public health through
+      vaccination and spay/neuter programs, supported shelters, responsible adoption, and community education.
+    </p>
+    <div class="cards">
+      <article class="card">
+        <h3>Public Health</h3>
+        <p>Rabies prevention relies on mass dog vaccination (≥70% coverage) and post-bite care.</p>
+      </article>
+      <article class="card">
+        <h3>Animal Welfare</h3>
+        <p>Dogs need food, clean water, and medical care. Sterilization reduces future suffering.</p>
+      </article>
+      <article class="card">
+        <h3>Community Harmony</h3>
+        <p>Clear feeding points, waste management, and trained feeders reduce conflicts and bites.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Global Practices -->
+  <section id="global" class="section alt container">
+    <h2>What Developed Countries Do</h2>
+    <ul class="list">
+      <li><strong>Mass Vaccination:</strong> Annual/periodic drives coordinated with local authorities.</li>
+      <li><strong>Spay/Neuter (ABC):</strong> Humane capture–neuter–vaccinate–return or adopt models.</li>
+      <li><strong>Shelters & Fostering:</strong> Temporary care with behavior assessment and adoption support.</li>
+      <li><strong>Pet Registration & Microchips:</strong> Reduces abandonment and improves reunions.</li>
+      <li><strong>Education & Enforcement:</strong> Anti-cruelty laws + responsible pet ownership programs.</li>
+    </ul>
+    <p class="tip">These approaches are not “remove or ignore.” They’re <em>plan, prevent, and protect</em>.</p>
+  </section>
+
+  <!-- Solutions -->
+  <section id="solutions" class="section container">
+    <h2>Practical Solutions We Can Start Today</h2>
+    <div class="grid-2">
+      <div>
+        <ol class="steps">
+          <li><strong>Vaccinate:</strong> Coordinate with local vets/NGOs for anti-rabies drives.</li>
+          <li><strong>Spay/Neuter:</strong> Prioritize high-density areas; track coverage.</li>
+          <li><strong>Feed Responsibly:</strong> Fixed, clean spots; remove leftovers; avoid crowding.</li>
+          <li><strong>Adopt/Foster:</strong> Promote adoption over buying; support foster networks.</li>
+          <li><strong>Report Cruelty:</strong> Document, call helplines, and follow legal routes.</li>
+        </ol>
+      </div>
+      <div class="panel">
+        <h3>Starter Toolkit</h3>
+        <ul class="toolkit">
+          <li><a href="#" aria-disabled="true">Printable poster (coming soon)</a></li>
+          <li><a href="#" aria-disabled="true">Neighborhood plan template (coming soon)</a></li>
+          <li><a href="#" aria-disabled="true">Volunteer sign-up sheet (coming soon)</a></li>
+        </ul>
+        <p class="mini">Want these files added? Tell me and I’ll generate them for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved -->
+  <section id="involved" class="section alt container">
+    <h2>Get Involved</h2>
+    <div class="grid-2">
+      <div>
+        <ul class="list">
+         <li>
+  Support NGOs:
+  <a href="https://bluecrossofindia.org" target="_blank">Blue Cross of India</a>, 
+  <a href="https://www.cupabangalore.org" target="_blank">CUPA Bangalore</a>, 
+  <a href="https://www.petaindia.com/" target="_blank">PETA India</a>
+</li>
+
+          <li>Ask your school to host a vaccination/ABC awareness day.</li>
+          <li>Share this site. Start a community WhatsApp group to organize.</li>
+        </ul>
+      </div>
+      <form class="contact" name="contact" onsubmit="return false" aria-label="contact form">
+        <label>
+          Your Name
+          <input type="text" placeholder="Name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Message
+          <textarea rows="4" placeholder="I want to help with..."></textarea>
+        </label>
+        <button class="btn primary" type="submit" aria-disabled="true" title="For static sites: connect a form service like Netlify Forms">Send (demo)</button>
+        <p class="mini">Tip: On GitHub Pages, use a form service (Netlify Forms, Formspree) to receive messages.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Street Dogs Care • Built for awareness and action.</p>
+      <p class="mini">Images: replace <code>images/dog.jpg</code> with your own photos.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Share links
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent('Humane, effective care for street dogs—learn what works and how to help.');
+    document.getElementById('shareTwitter').href = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+    document.getElementById('shareWhatsApp').href = `https://api.whatsapp.com/send?text=${text}%20${url}`;
+
+    // Copy link
+    document.getElementById('copyLink').addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const btn = document.getElementById('copyLink');
+        btn.textContent = 'Copied!';
+        setTimeout(() => (btn.textContent = 'Copy Link'), 1200);
+      } catch {}
+    });
+  </script>
+</body>
+</html>
