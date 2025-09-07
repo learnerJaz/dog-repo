@@ -139,13 +139,24 @@
           <li>இந்த தளத்தை பகிருங்கள். ஒருங்கிணைக்க WhatsApp குழு தொடங்குங்கள்.</li>
         </ul>
       </div>
-      <form class="contact" name="contact" onsubmit="return false" aria-label="தொடர்பு படிவம்">
-        <label> உங்கள் பெயர் <input type="text" placeholder="பெயர்" required /></label>
-        <label> மின்னஞ்சல் <input type="email" placeholder="you@example.com" required /></label>
-        <label> செய்தி <textarea rows="4" placeholder="நான் உதவ விரும்புகிறேன்..."></textarea></label>
-        <button class="btn primary" type="submit" aria-disabled="true" title="Static தளங்களில் ஒரு படிவ சேவையை இணைக்கவும்">அனுப்பு (டெமோ)</button>
-        <p class="mini">குறிப்பு: GitHub Pages-ல் Formspree/Netlify Forms போன்ற சேவையைப் பயன்படுத்தலாம்.</p>
-      </form>
+<form class="contact" action="https://formspree.io/f/mblaqagv" method="POST" aria-label="தொடர்பு படிவம்">
+  <label>
+    உங்கள் பெயர்
+    <input type="text" name="name" placeholder="பெயர்" required />
+  </label>
+  <label>
+    மின்னஞ்சல்
+    <input type="email" name="_replyto" placeholder="you@example.com" required />
+  </label>
+  <label>
+    செய்தி
+    <textarea name="message" rows="4" placeholder="நான் உதவ விரும்புகிறேன்..."></textarea>
+  </label>
+  <!-- Redirect to Tamil thank you page -->
+  <input type="hidden" name="_redirect" value="https://learnerjaz.github.io/dog-repo/thankyou-ta.html">
+  <button class="btn primary" type="submit">அனுப்பு</button>
+</form>
+
     </div>
   </section>
 
