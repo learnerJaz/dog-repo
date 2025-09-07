@@ -1,179 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Humane Care for Street Dogs</title>
-  <meta name="description" content="Raising awareness for humane, effective care of community dogs—vaccination, spay/neuter, adoption, and shelter support." />
+  <title>सड़क कुत्तों की मानवीय देखभाल</title>
+  <meta name="description" content="समुदाय के कुत्तों के लिए टीकाकरण, नसबंदी, गोद लेना और शेल्टर समर्थन पर जागरूकता।" />
   <link rel="stylesheet" href="style.css" />
-  <nav>
-  <a href="index.html">English</a>
-  <a href="index-hi.html">हिंदी</a>
-  <a href="index-ta.html">தமிழ்</a>
-</nav>
+  <!-- Better Hindi rendering -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <style> body { font-family: "Noto Sans Devanagari", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; } </style>
+  <link rel="alternate" href="index.html" hreflang="en" />
+  <link rel="alternate" href="index-ta.html" hreflang="ta" />
 </head>
 <body>
-  <!-- Top Bar / Navigation -->
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#home">🐾 Street Dogs Care</a>
       <nav>
-        <a href="#issue">The Issue</a>
-        <a href="#global">Global Practices</a>
-        <a href="#solutions">Solutions</a>
-        <a href="#involved" class="cta">Get Involved</a>
+        <a href="index.html" hreflang="en">English</a>
+        <a href="index-hi.html" hreflang="hi">हिंदी</a>
+        <a href="index-ta.html" hreflang="ta">தமிழ்</a>
+        <a href="#issue">समस्या</a>
+        <a href="#global">वैश्विक तरीके</a>
+        <a href="#solutions">समाधान</a>
+        <a href="#involved" class="cta">शामिल हों</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
   <section id="home" class="hero container">
     <div class="hero-text">
-      <h1>Toward Humane, Smart Care for Street Dogs</h1>
+      <h1>सड़क कुत्तों के लिए मानवीय और समझदार देखभाल</h1>
       <p>
-        Street dogs deserve compassion and effective public health solutions. Learn what
-        works worldwide—vaccination, spay/neuter, adoption—and how we can bring it to every community.
+        सड़क के कुत्ते करुणा और प्रभावी सार्वजनिक स्वास्थ्य समाधान के हकदार हैं। जानें कि दुनिया भर में
+        क्या काम करता है—टीकाकरण, नसबंदी, गोद लेना—और हम अपने समुदायों में इसे कैसे लागू कर सकते हैं।
       </p>
       <div class="hero-actions">
-        <a class="btn primary" href="#solutions">See What Works</a>
-        <a class="btn" href="#issue">Why This Matters</a>
+        <a class="btn primary" href="#solutions">क्या काम करता है देखें</a>
+        <a class="btn" href="#issue">यह क्यों ज़रूरी है</a>
       </div>
-      <p class="mini">Share this site: <button id="copyLink" class="link-btn">Copy Link</button></p>
+      <p class="mini">इस साइट को साझा करें: <button id="copyLink" class="link-btn">लिंक कॉपी करें</button></p>
       <p class="mini">
-        <a target="_blank" rel="noopener" id="shareTwitter">Share on X/Twitter</a> ·
-        <a target="_blank" rel="noopener" id="shareWhatsApp">WhatsApp</a>
+        <a target="_blank" rel="noopener" id="shareTwitter">X/Twitter पर शेयर</a> ·
+        <a target="_blank" rel="noopener" id="shareWhatsApp">व्हाट्सएप</a>
       </p>
     </div>
     <figure class="hero-image">
-      <img src="images/dog.jpg" alt="Friendly community dog" />
-      <figcaption class="img-cap">Community dogs are part of our neighborhoods—and our responsibility.</figcaption>
+      <img src="images/dog.jpg" alt="प्यारा सामुदायिक कुत्ता" />
+      <figcaption class="img-cap">समुदाय के कुत्ते हमारी ज़िम्मेदारी भी हैं।</figcaption>
     </figure>
   </section>
 
-  <!-- The Issue -->
   <section id="issue" class="section container">
-    <h2>The Issue in India</h2>
+    <h2>भारत में समस्या</h2>
     <p>
-      Many dogs live on the streets with limited access to food, vaccination, and sterilization.
-      Public debates can become polarized: remove dogs vs. leave them on the streets. Both miss the point:
-      the <strong>humane, proven path</strong> is to reduce suffering <em>and</em> improve public health through
-      vaccination and spay/neuter programs, supported shelters, responsible adoption, and community education.
+      बहुत से कुत्ते सड़कों पर रहते हैं और उन्हें भोजन, टीकाकरण व नसबंदी की सीमित सुविधा मिलती है।
+      बहस अक्सर ‘हटा दो’ बनाम ‘ऐसे ही रहने दो’ पर अटक जाती है। सही और प्रमाणित राह है
+      <strong>मानवीय उपायों से पीड़ा कम</strong> करना और सार्वजनिक स्वास्थ्य सुधारना—व्यापाक टीकाकरण,
+      नसबंदी, समर्थित शेल्टर, ज़िम्मेदार गोद लेना और सामुदायिक शिक्षा के साथ।
     </p>
     <div class="cards">
       <article class="card">
-        <h3>Public Health</h3>
-        <p>Rabies prevention relies on mass dog vaccination (≥70% coverage) and post-bite care.</p>
+        <h3>सार्वजनिक स्वास्थ्य</h3>
+        <p>रेबीज़ नियंत्रण के लिए बड़े पैमाने पर कुत्तों का टीकाकरण (≥70% कवरेज) आवश्यक है।</p>
       </article>
       <article class="card">
-        <h3>Animal Welfare</h3>
-        <p>Dogs need food, clean water, and medical care. Sterilization reduces future suffering.</p>
+        <h3>पशु कल्याण</h3>
+        <p>भोजन, स्वच्छ पानी और इलाज ज़रूरी है। नसबंदी भविष्य की पीड़ा घटाती है।</p>
       </article>
       <article class="card">
-        <h3>Community Harmony</h3>
-        <p>Clear feeding points, waste management, and trained feeders reduce conflicts and bites.</p>
+        <h3>समुदाय में सामंजस्य</h3>
+        <p>निर्धारित फीडिंग पॉइंट, साफ़-सफ़ाई और प्रशिक्षित फीडर्स से टकराव व काटने की घटनाएँ घटती हैं।</p>
       </article>
     </div>
   </section>
 
-  <!-- Global Practices -->
   <section id="global" class="section alt container">
-    <h2>What Developed Countries Do</h2>
+    <h2>दुनिया क्या करती है</h2>
     <ul class="list">
-      <li><strong>Mass Vaccination:</strong> Annual/periodic drives coordinated with local authorities.</li>
-      <li><strong>Spay/Neuter (ABC):</strong> Humane capture–neuter–vaccinate–return or adopt models.</li>
-      <li><strong>Shelters & Fostering:</strong> Temporary care with behavior assessment and adoption support.</li>
-      <li><strong>Pet Registration & Microchips:</strong> Reduces abandonment and improves reunions.</li>
-      <li><strong>Education & Enforcement:</strong> Anti-cruelty laws + responsible pet ownership programs.</li>
+      <li><strong>व्यापक टीकाकरण:</strong> स्थानीय निकायों के साथ नियमित ड्राइव।</li>
+      <li><strong>नसबंदी (ABC):</strong> मानवीय पकड़–नसबंदी–टीकाकरण–वापसी या गोद लेना।</li>
+      <li><strong>शेल्टर व फॉस्टर:</strong> अस्थायी देखभाल, व्यवहार मूल्यांकन और गोद लेने में सहयोग।</li>
+      <li><strong>पेट रजिस्ट्रेशन/माइक्रोचिप:</strong> परित्याग घटता है, मिलाप आसान।</li>
+      <li><strong>शिक्षा व कानून पालन:</strong> क्रूरता-विरोधी कानून + जिम्मेदार पालतू पालन।</li>
     </ul>
-    <p class="tip">These approaches are not “remove or ignore.” They’re <em>plan, prevent, and protect</em>.</p>
+    <p class="tip">यह “हटा दो” या “अनदेखा करो” नहीं—यह <em>योजना, रोकथाम और संरक्षण</em> है।</p>
   </section>
 
-  <!-- Solutions -->
   <section id="solutions" class="section container">
-    <h2>Practical Solutions We Can Start Today</h2>
+    <h2>आज से शुरू करने योग्य समाधान</h2>
     <div class="grid-2">
       <div>
         <ol class="steps">
-          <li><strong>Vaccinate:</strong> Coordinate with local vets/NGOs for anti-rabies drives.</li>
-          <li><strong>Spay/Neuter:</strong> Prioritize high-density areas; track coverage.</li>
-          <li><strong>Feed Responsibly:</strong> Fixed, clean spots; remove leftovers; avoid crowding.</li>
-          <li><strong>Adopt/Foster:</strong> Promote adoption over buying; support foster networks.</li>
-          <li><strong>Report Cruelty:</strong> Document, call helplines, and follow legal routes.</li>
+          <li><strong>टीकाकरण:</strong> स्थानीय वेट/NGO के साथ रेबीज़ ड्राइव।</li>
+          <li><strong>नसबंदी:</strong> घनी आबादी वाले क्षेत्रों को प्राथमिकता दें; कवरेज ट्रैक करें।</li>
+          <li><strong>जिम्मेदार फीडिंग:</strong> निश्चित, साफ़ स्थान; बचा खाना न छोड़े; भीड़ न करें।</li>
+          <li><strong>गोद/फॉस्टर:</strong> खरीदने की बजाय गोद लें; फॉस्टर नेटवर्क बढ़ाएँ।</li>
+          <li><strong>क्रूरता रिपोर्ट करें:</strong> दस्तावेज़ करें, हेल्पलाइन पर कॉल करें, क़ानूनी प्रक्रिया अपनाएँ।</li>
         </ol>
       </div>
       <div class="panel">
-        <h3>Starter Toolkit</h3>
+        <h3>स्टार्टर टूलकिट</h3>
         <ul class="toolkit">
-          <li><a href="#" aria-disabled="true">Printable poster (coming soon)</a></li>
-          <li><a href="#" aria-disabled="true">Neighborhood plan template (coming soon)</a></li>
-          <li><a href="#" aria-disabled="true">Volunteer sign-up sheet (coming soon)</a></li>
+          <li><a href="#" aria-disabled="true">पोस्टर (जल्द)</a></li>
+          <li><a href="#" aria-disabled="true">मुहल्ला योजना टेम्पलेट (जल्द)</a></li>
+          <li><a href="#" aria-disabled="true">वॉलेंटियर साइन-अप शीट (जल्द)</a></li>
         </ul>
-        <p class="mini">Want these files added? Tell me and I’ll generate them for you.</p>
+        <p class="mini">बताइए, मैं ये फाइलें बनाकर जोड़ दूँगा।</p>
       </div>
     </div>
   </section>
 
-  <!-- Get Involved -->
   <section id="involved" class="section alt container">
-    <h2>Get Involved</h2>
+    <h2>शामिल कैसे हों</h2>
     <div class="grid-2">
       <div>
         <ul class="list">
-         <li>
-  Support NGOs:
-  <a href="https://bluecrossofindia.org" target="_blank">Blue Cross of India</a>, 
-  <a href="https://www.cupabangalore.org" target="_blank">CUPA Bangalore</a>, 
-  <a href="https://www.petaindia.com/" target="_blank">PETA India</a>
-</li>
-
-          <li>Ask your school to host a vaccination/ABC awareness day.</li>
-          <li>Share this site. Start a community WhatsApp group to organize.</li>
+          <li>स्थानीय NGOs को समर्थन दें (अपने शहर के नाम/लिंक जोड़ें)।</li>
+          <li>स्कूल में टीकाकरण/ABC जागरूकता दिवस कराएँ।</li>
+          <li>इस साइट को साझा करें। आयोजन के लिए WhatsApp समूह बनाएँ।</li>
         </ul>
       </div>
-      <form class="contact" name="contact" onsubmit="return false" aria-label="contact form">
-        <label>
-          Your Name
-          <input type="text" placeholder="Name" required />
-        </label>
-        <label>
-          Email
-          <input type="email" placeholder="you@example.com" required />
-        </label>
-        <label>
-          Message
-          <textarea rows="4" placeholder="I want to help with..."></textarea>
-        </label>
-        <button class="btn primary" type="submit" aria-disabled="true" title="For static sites: connect a form service like Netlify Forms">Send (demo)</button>
-        <p class="mini">Tip: On GitHub Pages, use a form service (Netlify Forms, Formspree) to receive messages.</p>
+      <form class="contact" name="contact" onsubmit="return false" aria-label="संपर्क फ़ॉर्म">
+        <label> आपका नाम <input type="text" placeholder="नाम" required /></label>
+        <label> ईमेल <input type="email" placeholder="you@example.com" required /></label>
+        <label> संदेश <textarea rows="4" placeholder="मैं मदद करना चाहता/चाहती हूँ..."></textarea></label>
+        <button class="btn primary" type="submit" aria-disabled="true" title="Static साइट्स पर फ़ॉर्म सर्विस जोड़ें">भेजें (डेमो)</button>
+        <p class="mini">टिप: GitHub Pages पर Formspree/Netlify Forms जैसी सेवा उपयोग करें।</p>
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Street Dogs Care • Built for awareness and action.</p>
-      <p class="mini">Images: replace <code>images/dog.jpg</code> with your own photos.</p>
+      <p>© <span id="year"></span> Street Dogs Care • जागरूकता और कार्रवाई के लिए बनाया गया।</p>
+      <p class="mini">चित्र: <code>images/dog.jpg</code> अपनी फोटो से बदलें।</p>
     </div>
   </footer>
 
   <script>
-    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Share links
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent('Humane, effective care for street dogs—learn what works and how to help.');
+    const text = encodeURIComponent('सड़क कुत्तों की मानवीय, प्रभावी देखभाल—जानें और साझा करें।');
     document.getElementById('shareTwitter').href = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
     document.getElementById('shareWhatsApp').href = `https://api.whatsapp.com/send?text=${text}%20${url}`;
-
-    // Copy link
     document.getElementById('copyLink').addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(window.location.href);
-        const btn = document.getElementById('copyLink');
-        btn.textContent = 'Copied!';
-        setTimeout(() => (btn.textContent = 'Copy Link'), 1200);
+      try { await navigator.clipboard.writeText(window.location.href);
+        const btn = document.getElementById('copyLink'); btn.textContent='कॉपी हुआ!'; setTimeout(()=>btn.textContent='लिंक कॉपी करें',1200);
       } catch {}
     });
   </script>
