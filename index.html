@@ -158,22 +158,22 @@
           <li>Share this site. Start a community WhatsApp group to organize.</li>
         </ul>
       </div>
-      <form class="contact" name="contact" onsubmit="return false" aria-label="contact form">
-        <label>
-          Your Name
-          <input type="text" placeholder="Name" required />
-        </label>
-        <label>
-          Email
-          <input type="email" placeholder="you@example.com" required />
-        </label>
-        <label>
-          Message
-          <textarea rows="4" placeholder="I want to help with..."></textarea>
-        </label>
-        <button class="btn primary" type="submit" aria-disabled="true" title="For static sites: connect a form service like Netlify Forms">Send (demo)</button>
-        <p class="mini">Tip: On GitHub Pages, use a form service (Netlify Forms, Formspree) to receive messages.</p>
-      </form>
+      <form class="contact" action="https://formspree.io/f/mblaqagv" method="POST" aria-label="contact form">
+  <label>
+    Your Name
+    <input type="text" name="name" placeholder="Name" required>
+  </label>
+  <label>
+    Email
+    <input type="email" name="_replyto" placeholder="you@example.com" required>
+  </label>
+  <label>
+    Message
+    <textarea name="message" rows="4" placeholder="I want to help with..."></textarea>
+  </label>
+  <button class="btn primary" type="submit">Send</button>
+</form>
+
     </div>
   </section>
 
