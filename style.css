@@ -94,3 +94,7 @@ img {
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.25);
 }
+
+html { scroll-behavior: smooth; }  /* optional, nice scrolling */
+.section { scroll-margin-top: 90px; } /* moves anchor down below sticky header */
+
