@@ -138,13 +138,24 @@
           <li>इस साइट को साझा करें। आयोजन के लिए WhatsApp समूह बनाएँ।</li>
         </ul>
       </div>
-      <form class="contact" name="contact" onsubmit="return false" aria-label="संपर्क फ़ॉर्म">
-        <label> आपका नाम <input type="text" placeholder="नाम" required /></label>
-        <label> ईमेल <input type="email" placeholder="you@example.com" required /></label>
-        <label> संदेश <textarea rows="4" placeholder="मैं मदद करना चाहता/चाहती हूँ..."></textarea></label>
-        <button class="btn primary" type="submit" aria-disabled="true" title="Static साइट्स पर फ़ॉर्म सर्विस जोड़ें">भेजें (डेमो)</button>
-        <p class="mini">टिप: GitHub Pages पर Formspree/Netlify Forms जैसी सेवा उपयोग करें।</p>
-      </form>
+<form class="contact" action="https://formspree.io/f/mblaqagv" method="POST" aria-label="संपर्क फ़ॉर्म">
+  <label>
+    आपका नाम
+    <input type="text" name="name" placeholder="नाम" required />
+  </label>
+  <label>
+    ईमेल
+    <input type="email" name="_replyto" placeholder="you@example.com" required />
+  </label>
+  <label>
+    संदेश
+    <textarea name="message" rows="4" placeholder="मैं मदद करना चाहता/चाहती हूँ..."></textarea>
+  </label>
+  <!-- Redirect to Hindi thank you page -->
+  <input type="hidden" name="_redirect" value="https://learnerjaz.github.io/dog-repo/thankyou-hi.html">
+  <button class="btn primary" type="submit">भेजें</button>
+</form>
+
     </div>
   </section>
 
